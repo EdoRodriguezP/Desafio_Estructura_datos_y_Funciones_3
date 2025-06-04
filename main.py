@@ -17,10 +17,12 @@ def menu_principal():
         print("5. Ver pizza actual")
         print("6. Confirmar orden")
         print("7. Salir")
-        print(pizza)
+        
 
         try:
+           
             opcion = int(input("\nSeleccione una opción (1-7): "))
+            mostrar_ingredientes(pizza)
             if opcion == 1:
                 selec_masa(pizza)
             elif opcion == 2:
