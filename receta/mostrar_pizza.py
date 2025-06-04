@@ -1,4 +1,4 @@
-def mostrar_ingredientes(pizza):
+def mostrar_pizza(pizza):
         print("\nTu pizza actual:")
         print(f"Masa: {pizza["base"]}")
         print(f"Salsa: {pizza["salsa"]}")

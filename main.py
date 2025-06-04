@@ -1,9 +1,9 @@
-from receta.crear_base import crear_base
-from receta.selec_masa import selec_masa
-from receta.selec_salsa import selec_salsa
+from receta.base_pizza import crear_base
+from receta.tipo_masa import selec_masa
+from receta.tipo_salsa import selec_salsa
 from receta.agregar_ingrediente import agregar_ingrediente
 from receta.eliminar_ingrediente import eliminar_ingrediente
-from receta.mostrar_selec import mostrar_ingredientes
+from receta.mostrar_pizza import mostrar_pizza
 from receta.tiempo import calcular_tiempo
 
 def menu_principal():
@@ -20,9 +20,9 @@ def menu_principal():
         
 
         try:
-           
+            
             opcion = int(input("\nSeleccione una opción (1-7): "))
-            mostrar_ingredientes(pizza)
+            
             if opcion == 1:
                 selec_masa(pizza)
             elif opcion == 2:
@@ -32,14 +32,14 @@ def menu_principal():
             elif opcion == 4:
                 eliminar_ingrediente(pizza)
             elif opcion == 5:
-                mostrar_ingredientes(pizza)
+                mostrar_pizza(pizza)
             elif opcion == 6:
                 tiempo_total = calcular_tiempo(pizza)
                 print(f"\nTiempo estimado de preparación: {tiempo_total} minutos")
-                mostrar_ingredientes(pizza)
+                mostrar_pizza(pizza)
                 confirmar = input("\n¿Desea confirmar su orden? (s/n): ").lower()
                 if confirmar == 's':
-                    print("\n¡Orden confirmada! Gracias por su compra.")
+                    print("\n¡Orden confirmada!")
                     break
             elif opcion == 7:
                 print("\n¡Gracias por visitarnos!")
