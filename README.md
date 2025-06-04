@@ -22,14 +22,10 @@ b) **Selección de Salsa**
 c) **Gestión de Ingredientes**
 - Agregar/eliminar: Tomate, Champiñones, Aceituna, Cebolla, Pollo, Jamón, Carne, Tocino, Queso
 
-### 2. Estimación de Tiempo (3 puntos)
+### 2. Estimación de Tiempo
 - Tiempo base: 20 minutos
 - 2 minutos adicionales por ingrediente
 - Confirmación de orden
 
-### 3. Visualización de Ingredientes (1 punto)
+### 3. Visualización de Ingredientes
 - Mostrar ingredientes actuales de la pizza
-
-## Uso del Programa
-1. Ejecutar `python pizza_jat.py`
-2. Seguir las instrucciones en pantalla para personalizar su pizza
