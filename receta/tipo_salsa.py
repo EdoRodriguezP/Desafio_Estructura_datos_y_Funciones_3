@@ -1,3 +1,6 @@
+
+
+# Funcion recibe como parametro argumento pizza
 def selec_salsa(pizza):
         salsas = ["Salsa de Tomate", "Salsa Alfredo", "Salsa Barbecue", "Salsa Pesto"]
         print("\nTipos de salsa disponibles:")

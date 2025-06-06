@@ -1,3 +1,5 @@
+
+# Funcion para imprimir pedido actual
 def mostrar_pizza(pizza):
         print("\nTu pizza actual:")
         print(f"Masa: {pizza["base"]}")

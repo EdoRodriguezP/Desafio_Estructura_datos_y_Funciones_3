@@ -1,3 +1,5 @@
+
+# Funcion recibe como parametro argumento pizza
 def selec_masa(pizza):
     masas = ["Masa Tradicional", "Masa Delgada", "Masa con Bordes de Queso"]
     print("\nTipos de masa disponibles:")
